@@ -355,3 +355,28 @@ ul.social-list li:nth-child(3) a:hover {
   border-color: transparent;
   color: var(--primary-white);
 }
+/*********************** SKILL SECTION*************************/
+
+.skill {
+  margin-bottom: 20px;
+}
+.skill h4 {
+  line-height: 62px;
+  margin: 0;
+  font-weight: normal;
+}
+.progress {
+  height: 25px;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  background-color: var(--primary-smoke);
+  overflow: visible;
+}
+.progress-bar {
+  background-color: var(--primary-green);
+  background-image: none;
+  position: relative;
+}
