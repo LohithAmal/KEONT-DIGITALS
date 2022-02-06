@@ -380,3 +380,27 @@ ul.social-list li:nth-child(3) a:hover {
   background-image: none;
   position: relative;
 }
+
+/*********************** STATEMENT SECTION*************************/
+
+#statement {
+  background: url(../img/tech/tech-quote-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+#statement .content-box-lg {
+  background: rgba(0, 0, 0, 0.4);
+}
+.text-color h3 {
+  color: var(--primary-white) !important;
+  font-size: 28px;
+  line-height: 45px;
+}
+.text-color p {
+  color: var(--primary-green);
+  font-family: "Raleway", sans-serif;
+  margin-top: 8px;
+  font-weight: 10px;
+}
