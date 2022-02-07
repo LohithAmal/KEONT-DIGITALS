@@ -54,3 +54,10 @@ $(function () {
     }
   );
 });
+
+// responsive tabs at service section
+$(function () {
+  $("#services-tabs").responsiveTabs({
+    animation: "slide",
+  });
+});

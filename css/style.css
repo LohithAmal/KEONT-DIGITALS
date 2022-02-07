@@ -453,3 +453,51 @@ ul.social-list li:nth-child(3) a:hover {
 .service p {
   line-height: normal;
 }
+/* **************************RESPONSIVE TABS */
+
+#services-02 {
+}
+#services-tabs {
+  background-color: var(--primary-white);
+  border: none;
+}
+#services-tabs ul {
+  margin-bottom: 40px;
+}
+#services-tabs ul li {
+  padding: 5px 30px;
+}
+#services-tabs ul li a {
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  color: #272727;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 0;
+  text-decoration: none;
+  transition: all 300ms linear;
+}
+
+.service-tab {
+  background-color: var(--primary-white);
+  margin: 0 auto;
+}
+/* active state */
+#services-tabs ul li.r-tabs-state-active a {
+  color: var(--primary-green);
+  border-bottom: 3px var(--primary-green) solid;
+  font-size: 700;
+  padding-bottom: 5px;
+}
+.service-tabs .col-md-6 {
+  padding: 0;
+}
+.service-tabs img {
+  width: 100%;
+  margin: 0 auto;
+}
+.service-tabs .tag-bg {
+  padding: 59px 30px;
+  min-height: 480px;
+  margin: 0 auto;
+}
