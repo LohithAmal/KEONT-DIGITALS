@@ -404,22 +404,31 @@
 <section id="portfolio">
   <div class="content-box-md">
     <div class="container">
-      <div class="row">
+      <div class="row ">
         <div class="col-md-12">
             <div class="vertical-heading">
               <h5>Our Works</h5>
               <h2>Our <br>Amazing <strong>Works</strong></h2>
             </div>
         </div>
+        <div class="col-md-12">
 
+          <div id="isotope-filters">
+              <button class="btn" data-filter="*"><span>All</span></button>
+              <button class="btn" data-filter=".logo"><span>Logo</span></button>
+              <button class="btn" data-filter=".graphic"><span>Graphic Designs</span></button>
+              <button class="btn" data-filter=".web"><span>Web Designs</span></button>
+              <button class="btn" data-filter=".photo"><span>Photography</span></button>
+          </div>
+        </div>
       </div>
     </div>
     <!-- portfolio items wrapper -->
     <section id="portfolio-wrapper">
-      <div class="container">
-        <div class="row">
-          <div  id="*-container">
-             <div class="col-md-3">
+      <div class="container-fluid">
+        <div class="row no-gutters">
+          <div  id="isotope-container">
+             <div class="col-md-3 logo">
             <!-- 1st porfolio item -->
             <div class="portfolio-item">
               <a href="img/portfolio/001.jpg" title="Add description"> <img src="./img/portfolio/001.jpg" class="img-responsive" alt="porfolio01" >
@@ -437,7 +446,7 @@
              
             </div>
              </div>
-             <div class="col-md-3">
+             <div class="col-md-3 graphic web logo">
                <!-- 2st porfolio item -->
             <div class="portfolio-item">
               <a href="img/portfolio/002.jpg" title="Add description"> <img src="./img/portfolio/002.jpg" class="img-responsive" alt="porfolio02" >
@@ -455,7 +464,7 @@
              
             </div>
              </div>
-             <div class="col-md-3">
+             <div class="col-md-3 web ">
               <!-- 3st porfolio item -->
             <div class="portfolio-item">
               <a href="img/portfolio/003.jpg" title="Add description"> <img src="./img/portfolio/003.jpg" class="img-responsive" alt="porfolio03" >
@@ -473,7 +482,7 @@
              
             </div>
              </div>
-             <div class="col-md-3">
+             <div class="col-md-3 logo web photo">
              <!-- 4st porfolio item -->
              <div class="portfolio-item">
               <a href="img/portfolio/004.jpg" title="Add description"> <img src="./img/portfolio/004.jpg" class="img-responsive" alt="porfolio04" >
@@ -491,7 +500,7 @@
              
             </div>
              </div>
-             <div class="col-md-3">
+             <div class="col-md-3 web photo">
               <!-- 5 porfolio item -->
             <div class="portfolio-item">
               <a href="img/portfolio/005.jpg" title="Add description"> <img src="./img/portfolio/005.jpg" class="img-responsive" alt="porfolio01" >
@@ -509,7 +518,7 @@
              
             </div>
              </div>
-             <div class="col-md-3">
+             <div class="col-md-3 logo photo">
              <!-- 6st porfolio item -->
              <div class="portfolio-item">
               <a href="img/portfolio/006.jpg" title="Add description"> <img src="./img/portfolio/006.jpg" class="img-responsive" alt="porfolio06" >
@@ -527,14 +536,14 @@
              
             </div>
              </div>
-             <div class="col-md-3">
+             <div class="col-md-3 photo">
            <!-- 1st porfolio item -->
            <div class="portfolio-item">
             <a href="img/portfolio/007.jpg" title="Add description"> <img src="./img/portfolio/007.jpg" class="img-responsive" alt="porfolio01" >
             <div class="portfolio-item-overlay">
               <div class="porfolio-item-details text-center">
                 <!-- item header -->
-                <h3>Digital Art</h3>
+                <h3>Photography</h3>
                 <!-- item strips -->
                 <span></span>
                 <!-- descripition -->
@@ -545,7 +554,7 @@
            
           </div>
              </div>
-             <div class="col-md-3">
+             <div class="col-md-3 logo graphic">
              <!-- 8st porfolio item -->
              <div class="portfolio-item">
               <a href="img/portfolio/008.jpg" title="Add description"> <img src="./img/portfolio/008.jpg" class="img-responsive" alt="porfolio01" >
@@ -597,6 +606,8 @@
     <script src="./js/waypoints/jquery.waypoints.min.js"></script>
     	<!-- responsive tabs plugin -->
     <script src="./js/responsive-tabs/jquery.responsiveTabs.min.js"></script>
+    <!-- isotope script -->
+    <script src="./js/isotope/isotope.pkgd.min.js"></script>
 
     <!-- JAVASCRIPT LINK FILE -->
     <script src="./js/script.js"></script>

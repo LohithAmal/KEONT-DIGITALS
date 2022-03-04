@@ -61,3 +61,18 @@ $(function () {
     animation: "slide",
   });
 });
+
+// portfolio *****************
+$(window).on("load", function () {
+  // isotope intialize
+  // $("#isotope-container").isotope({});
+  // filter items on button click
+  $("#isotope-filters").on("click", "button", function () {
+    //get filter value
+    var filterValue = $(this).attr("data-filter");
+    // filter portfolio
+    $("#isotope-container").isotope({
+      filter: filterValue,
+    });
+  });
+});
